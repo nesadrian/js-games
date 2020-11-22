@@ -3,6 +3,7 @@ import ScoreBoard from './ScoreBoard';
 import rock from '../images/rock.jpg'
 import paper from '../images/paper.jpg'
 import scissor from '../images/scissor.jpg'
+import { getCpuChoice } from '../helpers'
 
 export default function RockPaperScissor() {
   const [playerScore, setPlayerScore] = useState(0);
