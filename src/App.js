@@ -1,9 +1,12 @@
 import './App.css';
+import RockPaperScissor from './components/RockPaperScissor'
 
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <main>
+        <RockPaperScissor />
+      </main>
     </div>
   );
 }
